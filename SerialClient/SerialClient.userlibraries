@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jssc">
+    <archive path="/Users/johnny/Desktop/SerialClient/jssc.jar" />
+  </library>
+</eclipse-userlibraries>
+

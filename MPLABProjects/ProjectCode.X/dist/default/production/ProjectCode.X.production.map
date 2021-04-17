@@ -1,0 +1,160 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Apr 16 10:49:24 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000008
+                   .org_1       code   0x000008    program   0x000004
+                   .cinit    romdata   0x00000c    program   0x000002
+                   .org_2       code   0x000018    program   0x000510
+                   .org_3       code   0x000600    program   0x01f400
+.config_300000_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300003    program   0x000001
+.config_300004_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300004    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300006    program   0x000001
+.config_300007_BUILD/DEFAULT/PRODUCTION/PROJECT    romdata   0x300007    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000d      
+                            0x000018    0x000527      
+                            0x000600    0x01f9ff      
+                            0x300000    0x300007      
+            129318 out of 132366 program addresses used, program memory utilization is 97%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  D10mSec   0x00026c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   D1mSec   0x000266    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   D1uSec   0x000256    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  D20uSec   0x000260    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   DACOFF   0x0002e2    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    DACON   0x0002a0    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+              ERASE_BLOCK   0x00035a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               I2C1GotAck   0x00016c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  I2C1Put   0x000162    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                I2C1Setup   0x000158    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C1WaitData   0x000150    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C1WaitIdle   0x000142    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               I2C2GotAck   0x0001b4    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  I2C2Put   0x0001a0    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                I2C2Setup   0x000192    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C2WaitData   0x000186    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C2WaitIdle   0x000172    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               INCNVMADDR   0x000280    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      ISR   0x000496    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               Initialize   0x00001c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             MODIFY_BLOCK   0x000364    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+           PROGRAM_MEMORY   0x00038e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               READ_BLOCK   0x000348    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               TimeoutInc   0x00011c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             TimeoutReset   0x000112    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_03E2   0x0003e2    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0422   0x000422    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0430   0x000430    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0440   0x000440    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  blkLoop   0x000376    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+              checkSerial   0x0004fc    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 checksum   0x00012e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 delPatch   0x00026e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   doMore   0x0004e4    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     done   0x00044c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+           downloadSample   0x0003a8    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     inc2   0x000124    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     inc3   0x00012a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               initBlkWrt   0x000292    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 mainline   0x000454    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               nextBlkWrt   0x000348    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  nextNum   0x000138    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      off   0x0004f8    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     play   0x00046a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   resend   0x00043c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 resloop1   0x0001de    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 resloop2   0x00022a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  restore   0x000512    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      rms   0x000272    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    sendN   0x000420    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    sendX   0x00042e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               softReset1   0x0001be    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               softReset2   0x00020a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     stop   0x00048e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitChk   0x0003ea    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitDAC   0x0003ae    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitSet   0x0003c6    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 waitZero   0x0003ce    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               Initialize   0x00001c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             TimeoutReset   0x000112    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               TimeoutInc   0x00011c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     inc2   0x000124    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     inc3   0x00012a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 checksum   0x00012e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  nextNum   0x000138    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C1WaitIdle   0x000142    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C1WaitData   0x000150    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                I2C1Setup   0x000158    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  I2C1Put   0x000162    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               I2C1GotAck   0x00016c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C2WaitIdle   0x000172    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             I2C2WaitData   0x000186    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                I2C2Setup   0x000192    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  I2C2Put   0x0001a0    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               I2C2GotAck   0x0001b4    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               softReset1   0x0001be    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 resloop1   0x0001de    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               softReset2   0x00020a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 resloop2   0x00022a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   D1uSec   0x000256    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  D20uSec   0x000260    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   D1mSec   0x000266    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  D10mSec   0x00026c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 delPatch   0x00026e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      rms   0x000272    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               INCNVMADDR   0x000280    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               initBlkWrt   0x000292    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    DACON   0x0002a0    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   DACOFF   0x0002e2    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               READ_BLOCK   0x000348    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+               nextBlkWrt   0x000348    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+              ERASE_BLOCK   0x00035a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             MODIFY_BLOCK   0x000364    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  blkLoop   0x000376    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+           PROGRAM_MEMORY   0x00038e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+           downloadSample   0x0003a8    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitDAC   0x0003ae    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitSet   0x0003c6    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 waitZero   0x0003ce    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_03E2   0x0003e2    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  waitChk   0x0003ea    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    sendN   0x000420    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0422   0x000422    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                    sendX   0x00042e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0430   0x000430    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   resend   0x00043c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+             _.org_2_0440   0x000440    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     done   0x00044c    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                 mainline   0x000454    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     play   0x00046a    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                     stop   0x00048e    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      ISR   0x000496    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                   doMore   0x0004e4    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                      off   0x0004f8    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+              checkSerial   0x0004fc    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+                  restore   0x000512    program     static C:\Users\Johnny\Documents\Project\MPLABProjects\ProjectCode.X\ProjectCode.asm
+
+
